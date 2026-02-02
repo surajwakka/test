@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   
   function yes() {
-    if (counter >= 3) {
         let model = document.getElementById("model2");
         let model2 = document.getElementById("model");
         let sadMusic = document.getElementById("sadMusic");
@@ -102,14 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const wedate = document.getElementById("wedate");
         const btns = document.getElementById("btns");
         btns.style.display = "none";
-        wedate.innerText = "We are each other's valentine now. I love you cutie. ❤️😘";
+        wedate.innerText = "We are each other's valentine now. I love you Bhoomi. ❤️😘";
 
         // Open index1.html in a new tab
         window.open("index1.html", "_blank");
-
-    } else {
-        alert("Don't say yes right away, cutie. Play around a bit 😉😘");
-    }
 }
 
   
